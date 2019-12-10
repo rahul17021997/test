@@ -1,0 +1,288 @@
+    1  sudo update-grub
+    2  git config user.name rahul17021997
+    3  git init
+    4  git config user.name rahul17021997
+    5  git config user.email rahulgsanthosh@gmail.com
+    6  git add .
+    7  git commit -m 
+    8  sudo apt install git
+    9  git --version
+   10  whereis git
+   11  sudo snap install vlc
+   12  version -- vlc
+   13  whereis vlc
+   14  version --vlc
+   15  Version --vlc
+   16  brew install
+   17  sudo apt install linuxbrew-wrapper
+   18  brew install node
+   19  sudo apt install curl
+   20  curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+   21  sudo apt-get install -y nodejs
+   22  node -v
+   23  npm -v
+   24  cd js
+   25  node test.html
+   26  node test
+   27  cd ..
+   28  sudo npm install live-server -g
+   29  live-server
+   30  cd js
+   31  cd..
+   32  cd ..
+   33  live-server
+   34  cd/
+   35  cd\
+   36  cd /
+   37  cd home
+   38  ls
+   39  cd ..
+   40  cd usr
+   41  ls
+   42  cd ..
+   43  cd sbin
+   44  ls
+   45  cd ..
+   46  cpuinfo
+   47  cat cpuinfo
+   48  cd proc
+   49  cat cpuinfo
+   50  lscpu
+   51  cd ..
+   52  cd home
+   53  cd test
+   54  pwd
+   55  mkdir a
+   56  mkdir 1
+   57  cd rahul
+   58  mkdir a
+   59  cd a
+   60  touch f.txt
+   61  ls a
+   62  ls
+   63  rm -r a
+   64  cd 
+   65  rm -r a
+   66  mkdir q
+   67  mv q r
+   68  cd r
+   69  touch test.txt
+   70  cd..
+   71  cd ..
+   72  cd r
+   73  mkdir fold
+   74  mv *.txt fold/
+   75  cd -r fold/fold2
+   76  mkdir fold2
+   77  cp -r folg/fold2
+   78  cp -r fold/fold2
+   79  cp -r fold/fold3
+   80  cp fold/fold2
+   81  pushd .
+   82  cd sbin
+   83  /sbin
+   84  /user
+   85  cd
+   86  cd /proc
+   87  pushd .
+   88  cd /bin
+   89  pushd .
+   90  popd
+   91  ls -al
+   92  chmod u-x fold
+   93  ls
+   94  ls -al
+   95  chmod
+   96  chmod fold
+   97  chmod 777 fold
+   98  ls -al
+   99  sudo install vim
+  100  cd
+  101  sudo install vim
+  102  sudo apt install vim
+  103  vim -v
+  104  vi new.txt
+  105  vi new1.txt
+  106  vi new.txt
+  107  vi new1.txt
+  108  vi new.txt
+  109  echo "hello"
+  110  echo "hello" >f1.txt
+  111  cat f1.txt
+  112  echo "where are you" >>f1.txt
+  113  cat f1.txt
+  114  sudo useradd santhosh
+  115  sudo passwd santhosh
+  116  su santhosh
+  117  su santhosh
+  118  su santhosh
+  119  sudo groupadd group1
+  120  cat / etc/group
+  121  cat/etc/group
+  122  cat /etc/group
+  123  sudo usermod -a -g group1 santhosh
+  124  cat /etc/group
+  125  sudo usermod -a -G group1 santhosh
+  126  cat /etc/group
+  127  sudo adduser santhosh1
+  128  cd /
+  129  cd home/
+  130  ls
+  131  cd santhosh1/
+  132  ls -al
+  133  cd
+  134  su santhosh1
+  135  cd /
+  136  cd etc
+  137  sudo gedit sudoers
+  138  cd
+  139  su santhosh1
+  140  cd
+  141  su santhosh1
+  142  grep -i "hai" new.txt
+  143  cd
+  144  grep -i "hai" new.txt
+  145  grep -c "hai" new.txt
+  146  set nu
+  147  :set nu
+  148  grep -n "hai" new.txt
+  149  grep -o "hai" new.txt
+  150  grep -l -i "hai" new.txt
+  151  grep -l -c "hai" new.txt
+  152  find -type f new.txt
+  153  find -type f -name new.txt
+  154  ls
+  155  cd
+  156  sudo find -type f -name new.txt
+  157  ls
+  158  sudo find -type d -name downloads
+  159  sudo find -type d -name Downloads
+  160  cd home/
+  161  cd home
+  162  cd Home
+  163  cd..
+  164  cd ..
+  165  ls
+  166  cd
+  167  mkdir example
+  168  ls
+  169  /desktop
+  170  /Desktop
+  171  Desktop /
+  172  / Desktop
+  173  cd Desktop
+  174  cd
+  175  mkdir r
+  176  cd Desktop
+  177  mkdir r
+  178  mv y
+  179  mv r t
+  180  mv t r
+  181  rm -r r
+  182  awk 'hai' new.txt
+  183  cd
+  184  awk 'hai' new.txt
+  185  awk '/hai/' new.txt
+  186  awk '{print $1}' new.txt
+  187  awk '{print $2}' new.txt
+  188  BEGIN{
+  189  FS=",";
+  190  print "Filed1, Field2, Field3, Sum";
+  191  }
+  192  {     print $1"\t"$2"\t"$3"\t"$1+$2+$3; }
+  193  END {
+  194  }
+  195  cd r
+  196  ------------p.awk ----
+  197  BEGIN{
+  198  FS=",";
+  199  print "Filed1, Field2, Field3, Sum";
+  200  }
+  201  {     print $1"\t"$2"\t"$3"\t"$1+$2+$3; }
+  202  END {
+  203  }
+  204  p.awk 
+  205  gedit p.awk
+  206  gedit n.nxt
+  207  gedit n.txt
+  208  awk -f p.awk n.txt
+  209  zip output.zip n.txt f1.txt
+  210  zip output.zip n.txt new.txt
+  211  zip output.zip n.txt 
+  212  ls
+  213  unzip output.zip
+  214  ls
+  215  clear
+  216  zip output.zip fold
+  217  cd r
+  218  zip output.zip fold
+  219  ls
+  220  cd output
+  221  cd output.zip
+  222  zip output.zip *.txt r -R
+  223  ping https://docs.google.com
+  224  ping https://google.com
+  225  ping https://www.google.com
+  226  ping www.google.com
+  227  ls chrome -al
+  228  cd Desktop
+  229  ln -s /usr/bin/code/ cod
+  230  ./cod
+  231  ssh -v
+  232  where ssh
+  233  ssh santhosh1@127.0.0.1
+  234  ps -el | ssd
+  235  ps -el | sshd
+  236  sudo apt install openssh-server
+  237  ssh santhosh1@127.0.0.1
+  238  scp ./new.txt santhosh1@127.0.0.1:~/
+  239  cd ..
+  240  scp ./new.txt santhosh1@127.0.0.1:~/
+  241  ls
+  242  gedit test.txt
+  243  cat test.txt
+  244  gedit test.txt
+  245  gedit test.sh
+  246  ./test.sh
+  247  chmod u+x test.sh
+  248  ./test.sh
+  249  gedit test.sh
+  250  ./test.sh
+  251  gedit condition.sh
+  252  chmod u+x condition.sh
+  253  ./condition.sh
+  254  ps -el | grep sshd
+  255  sudo kill 5511
+  256  ps -el | grep sshd
+  257  su santhosh1
+  258  sudo npm install typescript -g
+  259  typescript -v
+  260  -v typescript
+  261  tsc -v
+  262  mkdir git
+  263  cd git
+  264  ls -al
+  265  git --version
+  266  touch f1.txt
+  267  git status
+  268  git add f1.txt
+  269  git config --global user.name "rahul"
+  270  git config --global user.email "rahulgsanthosh@gmail.com"
+  271  git add f1.txt
+  272  git init
+  273  git add f1.txt
+  274  git status
+  275  git commit -m "file added"
+  276  git status
+  277  git log
+  278  touch f2.txt
+  279  git add f2.txt
+  280  git commit -m "file added"
+  281  git log
+  282  git checkout c88e680945c03464496313dfdf926edd28709fd1
+  283  git log
+  284  git checkout master
+  285  git log
+  286  git history
+  287  history
+  288  history > 10dec2019
